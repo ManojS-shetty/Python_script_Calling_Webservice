@@ -1,0 +1,8 @@
+Dear ${PERSON_NAME}, 
+
+You are getting this mail because Liberty DEV server URI is Down or Not Reachable.
+
+Thank you
+Have a great day! 
+
+Yours Truly

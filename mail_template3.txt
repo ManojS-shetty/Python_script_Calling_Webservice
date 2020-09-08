@@ -1,0 +1,9 @@
+Dear ${PERSON_NAME}, 
+
+You are getting this mail because the status of the control file is In-Progress. 
+So Please Wait for the Status to show completed or Please set the Status file Value to Completed and wait for the Script to get trigger.
+
+Thank you
+Have a great day! 
+
+Yours Truly
