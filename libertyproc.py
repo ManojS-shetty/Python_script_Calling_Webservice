@@ -83,18 +83,18 @@ def read_template(filename):
 #Testing Purpose
 '''def sendEmail():
  
-    sender = 'aowindows@sapiens.com'
-    receivers = ['manoj.shetty@sapiens.com']
+    sender = 'aowindows@domain.com'
+    receivers = ['*******@gmai.com']
     port = 587
-    pwd = 'Azur3!sGoing320'
+    pwd = '********'
     msg = MIMEText('This is test mail')
     message_template = read_template('message3.txt')
     msg['Subject'] = 'Test mail'
-    msg['From'] = 'aowindows@sapiens.com'
-    msg['To'] = 'manoj.shetty@sapiens.com'
+    msg['From'] = 'aowindows@domain.com'
+    msg['To'] = 'abcd@domain.com'
 
     with smtplib.SMTP('smtp.sendgrid.net', port) as server:
-         server.login('srazuresmtp',pwd)
+         server.login('*********',pwd)
          server.sendmail(sender, receivers, msg.as_string())
          print("Successfully sent email")'''
 
@@ -118,7 +118,7 @@ def sendMail(msgdata):
         
         
         s = smtplib.SMTP(host='smtp.sendgrid.net',port=587)
-        s.login('srazuresmtp',token) 
+        s.login('**********',token) 
 
         # For each contact, send the email:
         for name, email in zip(names, emails):
